@@ -1,6 +1,8 @@
 ---
 title: "Archive"
+
 ---
+{% if site.posts.size > 0 %}
 <ul>
   {% for post in site.posts %}
 
@@ -17,3 +19,6 @@ title: "Archive"
     <li>{{ post.date | date:"%B" }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+{% else %}
+<h3 style="text-align: center;">no posts found</h3>
+{% endif %}
