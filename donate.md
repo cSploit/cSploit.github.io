@@ -13,5 +13,6 @@ things to buy:
   - a raspberry pi
   - csploit.org dns record
   - build server
+  - USB OTG adapter
 
 thanks for your help :heart:
