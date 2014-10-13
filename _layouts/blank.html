@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="{{ site.encoding }}">
+    {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.title %} {{ page.title }} › {% endif %}{{ site.title }}</title>
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+    <link rel="stylesheet" type="text/css" href="{{ "basic.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "highlight.css" | prepend: site.baseurl }}">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ "feed.xml" | prepend: site.baseurl }}">
+    {% if site.disqus_username  and page.id %}
+    <script type="text/javascript">
+      var disqus_shortname = '{{ site.disqus_username }}';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    {% endif %}
+    {% if site.isso_domain and page.id %}<script data-isso="http://{{ site.isso_domain }}" src="//{{ site.isso_domain }}/js/embed.min.js"></script>{% endif %}
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+      <nav>
+        <ul>
+          <li><a href="{{ site.baseurl }}">Home</a></li>{% for node in site.pages %}{% if node.title %}<li><a href="{{ node.url }}"{% if page.url == node.url %} id="selected"{% endif %}>{{ node.title }}</a></li>{% endif %}{% endfor %}
+        </ul>
+      </nav>
+    </header>
+{{ content }}
+    <footer>
+      <span>Copyright</span><span><a href="{{ site.url }}">{% if page.author %}{{ page.author }}{% else %}{{site.title}}{% endif %}</a></span><span>{{ site.time | date: "%Y" }}</span>
+    </footer>
+  </body>
+</html>

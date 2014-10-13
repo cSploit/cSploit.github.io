@@ -1,0 +1,19 @@
+---
+layout: blank
+---
+      <article>
+        <header>
+          <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+          <p>{% if page.author %}{{ page.author }} • {% endif %}{% if page.date %}<time>{{ page.date | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.categories %} • {{ page.categories | join: ','}}{% endif %}</p>
+        </header>
+        <div>
+{{ content }}
+        </div>
+        {% if site.isso_domain and page.id %}
+        <section id="isso-thread"></section>
+        {% endif %}
+        {% if site.disqus_username  and page.id %}
+        <div id="disqus_thread"></div>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        {% endif %}
+      </article>
