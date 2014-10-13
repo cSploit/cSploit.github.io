@@ -1,6 +1,4 @@
 ---
-title: cSploit
-author: tux-mind
 ---
 
 # cSploit
