@@ -1,6 +1,7 @@
 ---
 title: "News"
 ---
+{% if site.posts.categories.news.size > 0 %}
 <ul>
   {% for post in site.posts.categories.news %}
     {% unless post.next %}
@@ -16,3 +17,6 @@ title: "News"
     <li>{{ post.date | date:"%B" }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+{% else %}
+<h3 style="text-align: center;">no news for now</h3>
+{% endif %}
