@@ -1,3 +1,9 @@
+---
+title: Donate
+---
+
+{% include donate_button.html %}
+
 contribute to cSploit by donating.
 incomings of donation will be used for buying hardware and services required by cSploit developers and network infrastructure.
 
