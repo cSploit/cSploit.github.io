@@ -4,15 +4,15 @@ title: Donate
 
 {% include donate_button.html %}
 
-contribute to cSploit by donating.
-incomings of donation will be used for buying hardware and services required by cSploit developers and network infrastructure.
+You can contribute to cSploit by donating:
+Incomings of donations will be used to buy hardware and services required by cSploit developers and network infrastructure.
 
-things to buy:
+Things to purchase:
 
-  - an old used iPhone
-  - a raspberry pi
-  - csploit.org dns record
-  - build server
-  - USB OTG adapter
+  - An old used iPhone
+  - A Raspberry PI
+  - cSploit.org dns record (done)
+  - A Build Server
+  - An USB OTG adapter
 
-thanks for your help :heart:
+Thanks for your help! :heart:
