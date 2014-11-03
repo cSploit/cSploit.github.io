@@ -7,36 +7,36 @@ The most complete and advanced IT security professional toolkit on Android.
 
 ### cSploit target
 
-my final goal is to write an application that can:
+My final goal is to write an application that is able to:
 
   - crack wifi
-  - enumerate hosts (*)
+  - enumerate local hosts (*)
   - find vulnerabilities (*)
-  - find exploits for that vulnerabilities (*)
-  - use thos exploits to gain access to the targets (*)
+  - find exploits for these vulnerabilities (*)
+  - use those exploits to gain access to the target (*)
   - install backdoors for later access
 
-(*) already working
+(*) already implemented
 
-### portability
+### Portability
 
-thanks to the new core, cSploit will be high portable.
+Thanks to the new core, cSploit will be easily portable.
 
-it can run on every UNIX-based system, but for now only andorid is supported, when i reach a beta-state version i will consider working on iOS, OSX, GTK+ and QT.
+Basically it can run on any UNIX-based system, but for now only andorid is supported. When I reach a beta-state version i will consider working on iOS, OSX, GTK+ and QT.
 
-### contribute to the code
+### Contribute to the code
 
-if you want to contribute fork the repo you want to contribute to and create a pull request when you're done.
-if you actively contribute to the project we will ask you to join our team.
+If you want to contribute fork the repo you want to contribute to and create a pull request when you're done.
+If you actively contribute to the project I will ask you to join the team.
 
-### support us
+### Support us
 
 please [donate](/donate.html) to cSpoit to support our efforts and resources.
-thanks :heart:
+Thank you :heart:
 
 ### story
 
-i started working on dSploit in summer 2012, i forked it and added the following features:
+After being initially created by evilsocket, I ( tux-mind ) started working on dSploit in summer 2012, i forked it and added the following features:
 
   - vulnerability finder
   - exploit finder
@@ -63,7 +63,7 @@ i asked if i could bring it on, but evilsocket told that the domain dsploit.net 
 and dsploit will oficially merge into zANTI2.
 so i forked the project and finished my work on the new core.
 
-> **NOTE:** evilsocket told that, in a far future, zANTI2 will be open source,
-> but i cannot wait this, i want to bring on all dSploit TODO's.
+> **NOTE:** evilsocket told, that in a far future zANTI2 will be open source,
+> but I don't want to wait for this, I want to finish all original dSploit TODOs.
 
-this is where cSploit born.
+This was when cSploit was born.
