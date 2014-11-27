@@ -14,5 +14,5 @@ for download the application click on the green button beside your choosen versi
 
 ## cSploit nightly builds
 
-coming soon.
+thanks to rootbitch, nightly builds are available [here](http://rootbitch.cc/csploit/cSploit-nightly.apk)
 
