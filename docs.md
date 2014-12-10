@@ -12,7 +12,7 @@ We are in a delicate first phase of this project and we are not stable, yet. Cur
 Even if you see a release marked as __release__, this does not mean that it has no bugs.
 My apologies for that, I'm doing my best to achieve a stable app :v:.
 
-## Possible error sdsd 
+## Possible error
 
 A short error message it's often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common exmaples that explain some errors:
 
