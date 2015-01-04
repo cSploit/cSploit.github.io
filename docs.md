@@ -14,7 +14,7 @@ My apologies for that, I'm doing my best to achieve a stable app :v:.
 
 ## Possible error
 
-A short error message it's often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common exmaples that explain some errors:
+A short error message it's often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common examples that explain some errors:
 
   - _cannot start process_: this message is printed when the core of cSploit cannot start the required process.
   - _`cmd` returned #`number`_: this message is printed when `cmd` has exited with an error code `number`
