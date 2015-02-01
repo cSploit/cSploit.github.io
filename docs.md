@@ -14,7 +14,7 @@ My apologies for that, I'm doing my best to achieve a stable app :v:.
 
 ## Possible error
 
-A short error message it's often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common examples that explain some errors:
+A short error message isn't often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common examples that explain some errors:
 
   - _cannot start process_: this message is printed when the core of cSploit cannot start the required process.
   - _`cmd` returned #`number`_: this message is printed when `cmd` has exited with an error code `number`
@@ -24,7 +24,7 @@ The above errors are bugs that are specific for your device. Hence please report
 
 ## Reporting bugs
 
-I'm human, thus i can fail. This is why we need a good issue tracker like the one provided by github.
+I'm human, thus I can fail. This is why we need a good issue tracker like the one provided by github.
 I'm working on an automated way of reporting bugs directly from the app just by clicking on a button. Until then you have to manually collect your logcat and share it on the [github issues page](https://github.com/cSploit/android/issues).
 
 ## FAQ
