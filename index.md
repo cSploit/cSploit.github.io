@@ -9,7 +9,7 @@ The most complete and advanced IT security professional toolkit on Android.
 
 My final goal is to write an application that is able to:
 
-  - crack wifi
+  - crack wifi passwords
   - enumerate local hosts (*)
   - find vulnerabilities (*)
   - find exploits for these vulnerabilities (*)
@@ -22,7 +22,7 @@ My final goal is to write an application that is able to:
 
 Thanks to the new core, cSploit will be easily portable.
 
-Basically it can run on any UNIX-based system, but for now only andorid is supported. When I reach a beta-state version I will consider working on iOS, OSX, GTK+ and QT.
+Basically it can run on any UNIX-based system, but for now only Andorid is supported. When I reach a beta-state version I will consider working on iOS, OSX, GTK+ and QT.
 
 ### Contribute to the code
 
@@ -31,7 +31,7 @@ If you actively contribute to the project I will ask you to join the team.
 
 ### Support us
 
-Please [donate](/donate.html) to cSpoit to support our efforts and resources.
+Please [donate](/donate.html) to cSploit to support our efforts and resources.
 Thank you :heart:
 
 ### Story
