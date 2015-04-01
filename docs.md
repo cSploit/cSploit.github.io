@@ -20,7 +20,7 @@ A short error message isn't often self-explanatory. Sometimes it too difficult t
   - _`cmd` returned #`number`_: this message is printed when `cmd` has exited with an error code `number`
   - _`cmd` killed by signal `number`_: this message is printed when `cmd` has been killed by signal `number`
 
-The above errors are bugs that are specific for your device. Hence please report them if no one already did.
+The errors above are bugs that are specific for your device. Hence, please report them if no one already has.
 
 ## Reporting bugs
 
