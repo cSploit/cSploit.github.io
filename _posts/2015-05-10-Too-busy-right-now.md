@@ -45,16 +45,16 @@ beside these jobs I have the exams for other courses for July.
 
 ##### My fails
 
-I asked to my teachers if I can do the Java game alone, but they decided to not give me this possibility.
+I've asked my teachers if I can do the Java game alone, but they did decided that for me.
 Instead they choose a guy from the heap and told me to work with him.
-One thing that I love of the internet is that I can judge people by what they say and do,
+One thing that I love about the internet is that I can judge people by what they say and do,
 choosing the right collaborators for my project.
-My collabolator for the Java game doesn't have any programming skills, and ( for now ) isn't eager to learn.
-That will cause me to work twice to achieve a good vote.
+My collabolator for the Java game didn't have any programming skills, and ( for now ) isn't eager to learn.
+That will cause me to work twice as hard to achieve a good vote.
 
 ##### Unexpected things
 
-Personally I thought I was a good Object-Oriented programmer. But I was wrong.
+Personally I thought that I was a good Object-Oriented programmer. But I was wrong.
 The course of Software Engineering is improving a lot my OOP skills.
 
 ##### cSploit and Me
