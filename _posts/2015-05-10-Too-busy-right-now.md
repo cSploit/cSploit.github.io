@@ -54,12 +54,12 @@ That will cause me to work twice to achieve a good vote.
 
 ##### Unexpected things
 
-Personally I thought I was a good Object-Oriented programmer. I was wrong.
-The course of Sotware Engineering is improving a lot my OOP skills.
+Personally I thought I was a good Object-Oriented programmer. But I was wrong.
+The course of Software Engineering is improving a lot my OOP skills.
 
 ##### cSploit and Me
 
-I love cSploit and the main targets that this app have.
-I want to keep working on it. Making it better and with more features.
-Sadly for the above reasons I havn't time to work on it right now.
+I love cSploit and the main targets that this app has.
+I want to keep working on it. Making it better and make more features.
+Sadly for the above reasons I haven't got time to work on it right now.
 I will resume working on it in a pair of months. Really As Soon As Possible :blush:.
