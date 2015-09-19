@@ -54,7 +54,7 @@ That will cause me to work twice to achieve a good vote.
 
 ##### Unexpected things
 
-Personally I thought I was a good Object-Oriented programmer. But I was wrong.
+Personally I thought that I was a good Object-Oriented programmer. But I was wrong
 The course of Software Engineering is improving a lot my OOP skills.
 
 ##### cSploit and Me
