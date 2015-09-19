@@ -3,7 +3,7 @@ title: the work made to support android 5
 categories: news
 ---
 
-## everything thanks to a guy from the internet
+##### everything thanks to a guy from the internet
 
 when the T42 died the time that i could spend on this project were significatly reduced.
 android 5 support were probably ready on summer.
@@ -15,9 +15,9 @@ all this thanks to one guy, he contacted me via email after I wrote about my old
 this kindfull act make me proud about our growing community.
 
 
-## Hack and trick
+##### Hack and trick
 
-### Network Radar
+###### **Network Radar**
 
 the first issue fixed on android 5 were with the replacement of `NetworkDiscovery`.
 `NetworkDiscovery` were wrote in java and opens a lot of sockets for searching hosts in your local subnet.
@@ -29,12 +29,12 @@ I rewrote it **completely** in plain ANSI C.
 I changed it's name to `NetworkRadar`, thus to give a better idea of what it does.
 for more infos about this component of cSploit visit the [project page](https://github.com/cSploit/network-radar/).
 
-### socket context
+###### **socket context**
 
 the second issue I fixed were a selinux restriction about accessing the `/dev/socket` folder.
 moving the cSploit UNIX socket inside the app folder fixed this.
 
-### PIE
+###### **PIE**
 
 last but not least problem were the PIE restricion ( Position Indipendent Executables ).
 android 5 support only executables compiled with the PIE flag.
@@ -52,11 +52,11 @@ another aspect is that we can now create ad-hoc core packages.
 say that one day a particular bug on many devices is found,
 well just detect the bug on boot and download the ad-hoc core package. :sunglasses:
 
-## special thanks
+##### special thanks
 
-  - the guy that purchased me a new notebook, he make me able to work on cSploit in these months.
-  - all of you that have helped me in testing cSploit on lollipo devices.
-  - all those contributors that manage translations for me, thus to let me focus on the code.
+  - - the guy that purchased me a new notebook, he make me able to work on cSploit in these months.
+  - - all of you that have helped me in testing cSploit on lollipo devices.
+  - - all those contributors that manage translations for me, thus to let me focus on the code.
 
 
 

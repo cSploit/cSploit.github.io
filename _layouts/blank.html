@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta charset="{{ site.encoding }}">
     {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %} {{ page.title }} › {% endif %}{{ site.title }}</title>
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-    <link rel="stylesheet" type="text/css" href="{{ "basic.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "highlight.css" | prepend: site.baseurl }}">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ "feed.xml" | prepend: site.baseurl }}">
     {% if site.disqus_username  and page.id %}
     <script type="text/javascript">
@@ -22,22 +22,73 @@
       })();
     </script>
     {% endif %}
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="{{ "init.js" | prepend: site.baseurl }}"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+    
     {% if site.isso_domain and page.id %}<script data-isso="http://{{ site.isso_domain }}" src="//{{ site.isso_domain }}/js/embed.min.js"></script>{% endif %}
   </head>
   <body>
-    <header>
-      <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-      <nav>
-        <ul>
-          <li><a href="{{ site.baseurl }}" {% if page.url == '/index.html' %} id="selected" {% endif %}>Home</a></li>{% for node in site.pages %}{% if node.title %}<li><a href="{{ node.url }}"{% if page.url == node.url %} id="selected"{% endif %}>{{ node.title }}</a></li>{% endif %}{% endfor %}
+    <!-- navbar -->
+    <nav class="light-blue darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="{{ site.baseurl }}" class="brand-logo right">{{ site.title }}</a>
+        {% capture page_list %}
+          {% assign list = site.pages | sort: 'position' %}
+          {% for node in list %}
+            {% unless node.title %}
+              {% continue %}
+            {% endunless %}
+            <li {% if page.url == node.url %} class="active"{% endif %}>
+              <a href="{{ node.url }}">
+              {{ node.title }}
+            </a></li>
+          {% endfor %}
+        {% endcapture %}
+        <ul class="left hide-on-med-and-down">
+          {{ page_list }}
         </ul>
-      </nav>
-    </header>
+        <ul id="nav-mobile" class="side-nav">
+          {{ page_list }}
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
     <br/>
 {{ content }}
     <br />
-    <footer>
-      <span>Copyright</span><span><a href="{{ site.url }}">{% if page.author %}{{ page.author }}{% else %}{{site.title}}{% endif %}</a></span><span>{{ site.time | date: "%Y" }}</span>
+    <footer class="page-footer light-blue darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">About cSploit</h5>
+            <p class="grey-text text-lighten-4">The most complete and advanced IT security professional toolkit on Android. <a href="story">More...</a></p>
+
+
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Project links</h5>
+            <ul>
+              <li><a class="white-text" href="https://github.com/cSploit/android">Github Project Page</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">About</h5>
+            <ul>
+              <li class="white-text">Website made by <u><a class="white-text" href="http://www.dominiktv.net">DominikTV</a></u></li>
+              <li class="white-text">CSS-Framework by <u><a class="white-text" href="http://materializecss.com">Materialize</a></u></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        <p>Copyright &copy; {{ site.time | date: '%Y' }} cSploit</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

@@ -15,8 +15,16 @@ defaults:
   -
     scope:
       path: ""
+      type: "pages"
     values:
-      layout: "blank"
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+      author: "tux_mind"
 
 gems:
   - jemoji

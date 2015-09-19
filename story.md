@@ -1,46 +1,12 @@
 ---
+title: Story
+position: 4
 ---
-
-# cSploit
-
-The most complete and advanced IT security professional toolkit on Android.
-
-### cSploit target
-
-My final goal is to write an application that is able to:
-
-  - crack wifi passwords
-  - enumerate local hosts (*)
-  - find vulnerabilities (*)
-  - find exploits for these vulnerabilities (*)
-  - use those exploits to gain access to the target (*)
-  - install backdoors for later access
-
-(*) already implemented
-
-### Portability
-
-Thanks to the new core, cSploit will be easily portable.
-
-Basically it can run on any UNIX-based system, but for now only Andorid is supported. When I reach a beta-state version I will consider working on iOS, OSX, GTK+ and QT.
-
-### Contribute to the code
-
-If you want to contribute fork the repo you want to contribute to and create a pull request when you're done.
-If you actively contribute to the project I will ask you to join the team.
-
-### Support us
-
-Please [donate](/donate.html) to cSploit to support our efforts and resources.
-Thank you :heart:
-
-### Story
-
 After being initially created by evilsocket, I ( tux-mind ) started working on dSploit in summer 2012, i forked it and added the following features:
 
-  - Vulnerability finder
-  - Exploit finder
-  - MetaSploitFramework integration ( draft )
+  - - Vulnerability finder
+  - - Exploit finder
+  - - MetaSploitFramework integration ( draft )
 
 After some weeks the project owner ( evilsocket ) asked me to merge it to the upstream branch.
 Initially there were about 2 main developers (me and evilsocket) and an UI developer ( androguide ).

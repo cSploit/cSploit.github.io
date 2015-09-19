@@ -1,0 +1,17 @@
+---
+title: News
+position: 5
+---
+
+{% if site.categories.news.size > 0 %}
+<div class="collection">
+  {% for post in site.categories.news %}
+  <a class="collection-item" href="{{post.url}}">
+  {{ post.date | date:"%Y-%m-%d" }} - {{ post.title }}
+  </a>
+  {% endfor %}
+{% else %}
+<div class="section">
+no news for now :tired_face:
+{% endif %}
+</div>
