@@ -45,7 +45,7 @@ beside these jobs I have the exams for other courses for July.
 
 ##### My fails
 
-I've asked my teachers if I can do the Java game alone, but they did decided that for me.
+I've asked my teachers if I could do the Java game alone, but they did decided that for me.
 Instead they choose a guy from the heap and told me to work with him.
 One thing that I love about the internet is that I can judge people by what they say and do,
 choosing the right collaborators for my project.
