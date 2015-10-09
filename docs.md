@@ -31,7 +31,7 @@ I'm working on an automated way of reporting bugs directly from the app just by 
 
 ##### Is cSploit the same as dSploit ?
 
-The basic code is the same but I'm continuing the development since dSploit has been oficcially merged into zANTI2.
+The basic code is the same but I'm continuing the development since dSploit has been officially merged into zANTI2.
 
 -----
 
