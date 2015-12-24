@@ -27,8 +27,9 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="{{ "init.js" | prepend: site.baseurl }}"></script>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" >
     
     {% if site.isso_domain and page.id %}<script data-isso="http://{{ site.isso_domain }}" src="//{{ site.isso_domain }}/js/embed.min.js"></script>{% endif %}
   </head>
@@ -59,7 +60,9 @@
       </div>
     </nav>
     <br/>
+    <main>
 {{ content }}
+    </main>
     <br />
     <footer class="page-footer light-blue darken-4">
       <div class="container">
@@ -73,7 +76,7 @@
           <div class="col l3 s12">
             <h5 class="white-text">Project links</h5>
             <ul>
-              <li><a class="white-text" href="https://github.com/cSploit/android">Github Project Page</a></li>
+              <li><u><a class="white-text" href="https://github.com/cSploit/android">Github Project Page</a></u></li>
             </ul>
           </div>
           <div class="col l3 s12">
