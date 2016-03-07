@@ -8,7 +8,7 @@ twitter_username: cSploit
 github_username: cSploit
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /:title/
 
 defaults:
