@@ -3,15 +3,14 @@ title: News
 position: 5
 ---
 
-{% if site.categories.news.size > 0 %}
-<div class="collection">
+<div class="collection col s12 l6">
   {% for post in site.categories.news %}
   <a class="collection-item" href="{{post.url}}">
   {{ post.date | date:"%Y-%m-%d" }} - {{ post.title }}
   </a>
   {% endfor %}
-{% else %}
-<div class="section">
-no news for now :tired_face:
-{% endif %}
+</div>
+<div class="col s12 l6">
+<a class="twitter-timeline" href="https://twitter.com/tux_mind" data-widget-id="719201507011346432">Tweet di @tux_mind</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
