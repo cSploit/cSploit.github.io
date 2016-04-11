@@ -6,11 +6,13 @@ position: 5
 <div class="col s12 l6">
   <h4>News</h4>
   <div class="divider"></div>
+  <div class="collection ">
   {% for post in site.categories.news %}
   <a class="collection-item" href="{{post.url}}">
   {{ post.date | date:"%Y-%m-%d" }} - {{ post.title }}
   </a>
   {% endfor %}
+  </div>
 </div>
 <div class="col s12 l6">
 <a class="twitter-timeline" href="https://twitter.com/tux_mind" data-widget-id="719201507011346432">Tweet di @tux_mind</a>
