@@ -4,6 +4,8 @@ position: 5
 ---
 
 <div class="collection col s12 l6">
+  <h4>News</h4>
+  <div class="divider"></div>
   {% for post in site.categories.news %}
   <a class="collection-item" href="{{post.url}}">
   {{ post.date | date:"%Y-%m-%d" }} - {{ post.title }}
