@@ -43,4 +43,4 @@ Like on every other open source project - don't ask for ETA :grin:
 
 ##### How can I contribute to cSploit ?
 
-There are many ways to contribute: by [donating](http://www.csploit.org/donate.html), by improving the [source code](https://github.com/cSploit/android) or by [correcting](https://github.com/cSploit/cSploit.github.io) my English on this website.
+There are many ways to contribute: by [donating](http://www.csploit.org/donate), by improving the [source code](https://github.com/cSploit/android) or by [correcting](https://github.com/cSploit/cSploit.github.io) my English on this website.
