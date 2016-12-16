@@ -1,11 +1,18 @@
 body {
-    font-family: "Source Sans Pro", "Calibri", sans-serif;
+    font-family: "Source Sans Pro", "Calibri", sans-serif !important;
     font-weight: 200;
     font-size: calc(.6vmax + .8em);
     line-height: 1.4em;
     margin: 0;
     padding: 0 calc(27% - 6em);
     background: whitesmoke;
+}
+
+::selection {
+  background: #bdbdbd !important;
+}
+::-moz-selection {
+  background: #bdbdbd !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,7 +74,7 @@ article {
 }
 
 article header {
-    text-align: center;
+    text-align: center !important;
 }
 
 article header p {
@@ -79,11 +86,11 @@ article footer a::after {
 }
 
 body > footer {
-    text-align: center;
+    text-align: center !important;
 }
 
 body > footer span {
-    margin: 0 5%;
+    margin: 0 5% !important;
 }
 
 nav li {
