@@ -19,7 +19,7 @@ Currently we are focusing on the daemon, but we planned to start developing the 
 ##### How will it work?
 We will use a web based UI (provide more portability accross the different platforms) that will communicate with the daemon thanks to a REST api.
 
-##### What was done? How's going the project?
+##### What we did
 Currently, we implemented the following
 -	A nice database
 -	Ability to manages hosts, services and even scanned networks!
