@@ -19,18 +19,22 @@ Currently we are focusing on the daemon, but we planned to start developing the 
 ##### How will it work?
 We will use a web based UI (provide more portability accross the different platforms) that will communicate with the daemon thanks to a REST api.
 
-##### What we did
--	A nice database
--	Ability to manages hosts, services and even scanned networks!
--	WiFi cracking (no, it is not a joke :smirk:!)
--	The network radar
+##### What we did...
+<ul class="collection">
+  <li class="collection-item">A nice database</li>
+  <li class="collection-item">Ability to manage hosts, ports, services and even scanned networks!</li>
+  <li class="collection-item">Wifi cracking (no, it's not a joke :smirk:)</li>
+  <li class="collection-item">Network radar</li>
+</ul>
 
 ##### What's planed?
-- I will continue to work on the WiFi attacks by implementing Wps and rogue APs (thanks to the [mana](https://github.com/sensepost/mana)) attacks.
-- Napitek is working on the evilproxy project (manipulate victims traffic after an MITM attack).
-- IwraStudios is working on dns2proxy project (will let us intercept https).
-- Tux-mind is working really hard on the daemon (can't quote evrything :smile:!).
-- If I forgot someone, I am sorry!
+<ul class="collection">
+  <li class="collection-item">I will work on implementing rogue APs (thanks to the [mana](https://github.com/sensepost/mana) project) and Wps attacks</li>
+  <li class="collection-item">Tux-mind is working very hard on the daemon (can't quote everything :smile:!).
+  <li class="collection-item">Napitek is working on evilproxy</li>
+  <li class="collection-item">IwraStudios is working on dns2proxy</li>
+ </li>
+</ul>
 
 ##### The end
 Well... I guess it is the end, thanks guys!

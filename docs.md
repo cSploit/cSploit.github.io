@@ -16,9 +16,11 @@ My apologies for that, I'm doing my best to achieve a stable app :v:.
 
 A short error message isn't often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common examples that explain some errors:
 
-  - - cannot start process: this message is printed when the core of cSploit cannot start the required process.
-  - - **cmd** returned **#number**: this message is printed when **cmd** has exited with an error code **number**
-  - - **cmd** killed by signal **number**: this message is printed when **cmd** has been killed by signal **number**
+<ul class="collection">
+  <li class="collection-item">cannot start process: this message is printed when the core of cSploit cannot start the required process</li>
+  <li class="collection-item">**cmd** returned **#number**: this message is printed when **cmd** has exited with an error code **number**</li>
+  <li class="collection-item">**cmd** killed by signal **number**: this message is printed when **cmd** has been killed by signal **number**</li>
+</ul>
 
 The errors above are bugs that are specific for your device. Hence, please report them if no one already did.
 

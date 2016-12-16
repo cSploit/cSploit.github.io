@@ -9,8 +9,10 @@ Rigth now I'm working on putting some extra feature into cSploit to intercept se
 
 I'm working on 2 features:
 
-  - DNS aliasing to bypass HSTS
-  - inject cSploit CA certificate
+<ul class="collection">
+  <li class="collection-item">DNS aliasing to bypass HSTS</li>
+  <li class="collection-item">inject cSploit CA certificate</li>
+</ul>
 
 I think that the cleaner approach is the root CA certificate injection,
 as it will allow us to sniff even those connection that are started over SSL.

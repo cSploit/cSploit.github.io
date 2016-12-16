@@ -30,18 +30,23 @@ I'm taking many courses to finish my lower-level graduation.
 3 of these require to build a project.
 for June I have to:
 
-  - build a website
-  - build a complex system for a big company
-  - build a game in Java
+<ul class="collection">
+  <li class="collection-item">build a website</li>
+  <li class="collection-item">build a complex system for a big company</li>
+  <li class="collection-item">build a game in Java</li>
+</ul>
 
 beside these jobs I have the exams for other courses for July.
 
-  - Physics
-  - Technical Physics
-  - Mechanics
-  - Logic Circuits
-  - Database 1
-  - Geometry
+
+<ul class="collection">
+  <li class="collection-item">Physics</li>
+  <li class="collection-item">Technical Physics</li>
+  <li class="collection-item">Mechanics</li>
+  <li class="collection-item">Logic Circuits</li>
+  <li class="collection-item">Database 1</li>
+  <li class="collection-item">Geometry</li>
+</ul>
 
 ##### My fails
 

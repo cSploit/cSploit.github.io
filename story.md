@@ -4,9 +4,11 @@ position: 4
 ---
 After being initially created by evilsocket, I ( tux-mind ) started working on dSploit in summer 2012, i forked it and added the following features:
 
-  - - Vulnerability finder
-  - - Exploit finder
-  - - MetaSploitFramework integration ( draft )
+<ul class="collection">
+  <li class="collection-item">Vulnerability finder</li>
+  <li class="collection-item">Exploit finder</li>
+  <li class="collection-item">MetaSploitFramework integration ( draft )</li>
+</ul>
 
 After some weeks the project owner ( evilsocket ) asked me to merge it to the upstream branch.
 Initially there were about 2 main developers (me and evilsocket) and an UI developer ( androguide ).

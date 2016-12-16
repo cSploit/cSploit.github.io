@@ -20,15 +20,18 @@ can exploit the whole power of the MSF.
 
 here some new feature that I hope you like:
 
-  - - full module infos ( authors, references, description ... )
-  - - improved module options management
-  - - jobs ( long-running exploits as browser related ones )
-  - - upgrade a shell session to meterpreter
-  - - execute post modules on sessions
-  - - you can now have your msfconsole :heart:
-  - - command history for consoles and sessions
-  - - session/console output will still here until you close cSploit
-  - - event-based system ( notifications/feedback when something changes)
+
+<ul class="collection">
+  <li class="collection-item">full module infos ( authors, references, description ... )</li>
+  <li class="collection-item">improved module options management</li>
+  <li class="collection-item">jobs ( long-running exploits as browser related ones )</li>
+  <li class="collection-item">upgrade a shell session to meterpreter</li>
+  <li class="collection-item">execute post modules on sessions</li>
+  <li class="collection-item">you can now have your msfconsole :heart:</li>
+  <li class="collection-item">command history for consoles and sessions</li>
+  <li class="collection-item">session/console output will still here until you close cSploit</li>
+  <li class="collection-item">event-based system ( notifications/feedback when something changes)</li>
+</ul>
 
 ##### The new UI
 
