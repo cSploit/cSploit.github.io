@@ -29,9 +29,9 @@ layout: blank
     </div>
     <div class="card-tabs tabs-fixed-width">
         <ul class="tabs tabs-fixed-width">
-            <li class="tab"><a href="#pre-csploit-1">How it was born</a></li>
-            <li class="tab"><a class="active" href="#pre-csploit-2">zANTI</a></li>
-            <li class="tab"><a href="#pre-csploit-3">Developing</a></li>
+            <li class="tab"><a href="#pre-csploit-1">HOW IT WAS BORN</a></li>
+            <li class="tab"><a class="active" href="#pre-csploit-2">ZANTI</a></li>
+            <li class="tab"><a href="#pre-csploit-3">DEVELOPING</a></li>
         </ul>
     </div>
     <div class="card-content grey lighten-4">
@@ -57,7 +57,7 @@ layout: blank
                         <!-- TODO replace these titles -->
                         <li class="tab"><a class="active" href="#csploit-1">NEW FRAMEWORK & SERVER</a></li>
                         <li class="tab"><a href="#csploit-2">UPDATES</a></li>
-                        <li class="tab"><a href="#csploit-3">Thanks</a></li>
+                        <li class="tab"><a href="#csploit-3">THANKS</a></li>
                     </ul>
                 </div>
                 <div class="card-content grey lighten-4">
@@ -70,7 +70,14 @@ layout: blank
                 </div>
             </div>
 
+            <br><br><br>
 
+            <div class="card float">
+                <div class="card-content black-text">
+                <p>{% capture story_final %}{% include story_final.md %}{% endcapture %}
+                        {{ story_final | markdownify }}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
