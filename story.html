@@ -1,0 +1,83 @@
+---
+title: Story
+position: 4
+layout: blank
+---
+
+<div class="section no-pad-bot story-gradient" id="index-banner">
+    <div class="container">
+        <br><br>
+        <h1 class="header center white-text floating-text-black">Story</h1>
+        <div class="row center">
+            <h5 class="header col s12 light white-text floating-text-black">How cSploit was born</h5>
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="section">
+        <div class="row">
+
+<div class="card indigo float">
+    <div class="card-content white-text">
+        <h3 class="white-text">Pre cSploit 2</h3>
+        <p>{% capture story_head1 %}{% include story_head1.md %}{% endcapture %}
+            {{ story_head1 | markdownify }}</p>
+    </div>
+    <div class="card-tabs tabs-fixed-width">
+        <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a href="#pre-csploit-1">HOW IT WAS BORN</a></li>
+            <li class="tab"><a class="active" href="#pre-csploit-2">ZANTI</a></li>
+            <li class="tab"><a href="#pre-csploit-3">DEVELOPING</a></li>
+        </ul>
+    </div>
+    <div class="card-content grey lighten-4">
+        <div id="pre-csploit-1"><p class="white-text">{% capture story_tab1 %}{% include story_tab1.md %}{% endcapture %}
+            {{ story_tab1 | markdownify }}</p></div>
+        <div id="pre-csploit-2"><p class="white-text">{% capture story_tab2 %}{% include story_tab2.md %}{% endcapture %}
+            {{ story_tab2 | markdownify }}</p></div>
+        <div id="pre-csploit-3"><p class="white-text">{% capture story_tab3 %}{% include story_tab3.md %}{% endcapture %}
+            {{ story_tab3 | markdownify }}</p></div>
+    </div>
+</div>
+
+            <br><br><br><br>
+
+            <div class="card indigo float">
+                <div class="card-content white-text">
+                    <h3 class="white-text">cSploit 2</h3>
+                    <p>{% capture story_head2 %}{% include story_head2.md %}{% endcapture %}
+                        {{ story_head2 | markdownify }}</p>
+                </div>
+                <div class="card-tabs tabs-fixed-width tabs-transparent">
+                    <ul class="tabs tabs-fixed-width">
+                        <!-- TODO replace these titles -->
+                        <li class="tab"><a class="active" href="#csploit-1">NEW FRAMEWORK & SERVER</a></li>
+                        <li class="tab"><a href="#csploit-2">UPDATES</a></li>
+                        <li class="tab"><a href="#csploit-3">THANKS</a></li>
+                    </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                    <div id="csploit-1">{% capture story_tab4 %}{% include story_tab4.md %}{% endcapture %}
+                        {{ story_tab4 | markdownify }}</div>
+                    <div id="csploit-2">{% capture story_tab5 %}{% include story_tab5.md %}{% endcapture %}
+                        {{ story_tab5 | markdownify }}</div>
+                    <div id="csploit-3">{% capture story_tab5 %}{% include story_tab5.md %}{% endcapture %}
+                        {{ story_tab5 | markdownify }}</div>
+                </div>
+            </div>
+
+            <br><br><br>
+
+            <div class="card float">
+                <div class="card-content black-text">
+                <p>{% capture story_final %}{% include story_final.md %}{% endcapture %}
+                        {{ story_final | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

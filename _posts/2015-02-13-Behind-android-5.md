@@ -55,7 +55,7 @@ well just detect the bug on boot and download the ad-hoc core package. :sunglass
 ##### special thanks
 
   - - the guy that purchased me a new notebook, he make me able to work on cSploit in these months.
-  - - all of you that have helped me in testing cSploit on lollipo devices.
+  - - all of you that have helped me in testing cSploit on lollipop devices.
   - - all those contributors that manage translations for me, thus to let me focus on the code.
 
 

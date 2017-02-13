@@ -1,15 +1,29 @@
 ---
 layout: default
 ---
-      <article>
-        <header>
-          <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-          <p>{% if page.author %}{{ page.author }} • {% endif %}{% if page.date %}<time>{{ page.date | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.categories %} • {{ page.categories | join: ','}}{% endif %}</p>
-        </header>
-        <div class="divider"></div>
-        <div>
-{{ content }}
-        </div>
+          <div class="section no-pad-bot docs-gradient" id="index-banner">
+              <div class="container">
+                  <br><br>
+                  <h2 class="header center white-text floating-text-white"><a href="{{ page.url }}" class="white-text floating-text-white">{{ page.title }}</a></h2>
+                  <div class="row center">
+                      <h5 class=" col s12 light white-text floating-text-white">{% if page.author %}{{ page.author }} • {% endif %}{% if page.date %}<time>{{ page.date | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.categories %} • {{ page.categories | join: ','}}{% endif %}</h5>
+                  </div>
+                  <div class="row center">
+                      <!--<a href="" id="download-button" class="btn-large waves-effect waves-light green">Get Started</a>-->
+                  </div>
+                  <br><br><br><br><br><br>
+
+              </div>
+          </div>
+<article>
+     <div class="container">
+                <div class="section">
+                    <div class="row">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+
         {% if site.isso_domain and page.id %}
         <section id="isso-thread"></section>
         {% endif %}

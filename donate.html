@@ -1,44 +1,89 @@
 ---
 title: Donate
 position: 2
+layout: blank
 ---
-<p>
-You can contribute to cSploit by donating:
-Incomings of donations will be used to buy hardware and services required
-by cSploit developers and network infrastructure.
-</p>
 
-<div class="row">
-  <div class="col m4">
-    <h5>PayPal <i class="material-icons">favorite</i></h5>
-    <!--<a class="waves-effect waves-light btn amber black-text" href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=o_bFxeimjBkMm7UJ0DUpy9kygjGKR87XcfE06nypZwmhAV_Cjb5GA8KW9ci&dispatch=5885d80a13c0db1f8e263663d3faee8d5c97cbf3d75cb63effe5661cdf3adb6d" target="_blank">PayPal</a>-->
-    {% include paypal_widget.html %}
-  </div>
-  <div class="col m4">
-    <h5>Pledgie</h5>
-    {% include pledgie_widget.html %}
-  </div>
-  <div class="col m4">
-    <h5>Bitcoin</h5>
-    <!--<a class="waves-effect waves-light btn amber black-text">Bitcoin</a>-->
-    {% include bitcoin_widget.html %}
+<div class="section no-pad-bot donate-gradient" id="index-banner">
+  <div class="container">
+    <br><br>
+    <h1 class="header center white-text floating-text-black">Donate</h1>
+    <div class="row center">
+      <h5 class="header col s12 light white-text floating-text-black">Make cSploit better supporting his development</h5>
+    </div>
+    <div class="row center">
+      <a id="get-started-button" href="#DonateSec" class="btn-large waves-effect waves-light green">Donate</a>
+    </div>
+    <br><br><br><br><br><br>
+
   </div>
 </div>
+
+
+<div class="container">
+  <div class="section">
+    <a name="DonateSec"></a>
+    <div class="row">
+
+        <div class="col s12 m6">
+          <div class="card float">
+            <div class="card-image">
+              <img src="../img/donate-paypal.png">
+              <a class="btn-floating btn-large halfway-fab waves-effect waves-light green" href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=PgbaWwngYDYeaSlCpluSJsHqthvjk62zoQ38H-VyKAnIMxvw4pjpC2WUVs8&dispatch=5885d80a13c0db1f8e263663d3faee8d333dc9aadeed3fe0b5b299d55fd35542" target="_blank" onclick="Materialize.toast('Redirected to PayPal', 4500)"><i class="material-icons">send</i></a> <!-- TODO fix link -->
+            </div>
+            <div class="card-content" align="left">
+              <font color="#323232">{% capture donate_paypal %}{% include donate_paypal.md %}{% endcapture %}
+                {{ donate_paypal | markdownify }}</font>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="card float">
+            <div class="card-image">
+              <img src="../img/donate-pledgie.png">
+              <a class="btn-floating btn-large halfway-fab waves-effect waves-light green" href="https://pledgie.com/campaigns/30393" target="_blank" onclick="Materialize.toast('Redirected to Pledgie', 4500)"><i class="material-icons">send</i></a>
+            </div>
+            <div class="card-content"  align="left">
+              <font color="#323232">{% capture donate_pledgie %}{% include donate_pledgie.md %}{% endcapture %}
+                {{ donate_pledgie | markdownify }}</font>
+            </div>
+            <!--
+            <div class="card-action">
+              <a href="https://www.github.com/cSploit/" onclick="Materialize.toast('Redirecting to PayPal...', 4500)"><b>PayPal</b></a>
+              <a href="https://www.youtube.com" onclick="Materialize.toast('Redirecting to GitHub...', 4500)">More Info</a>
+            </div>
+            -->
+          </div>
+        </div>
+    </div>
+
+    <div class="row center-align" align="center">
+      <div class="col s12 m6 offset-l3">
+        <div class="card float">
+          <div class="card-image">
+            <img src="../img/donate-bitcoin.png">
+            <a class="btn-floating btn-large halfway-fab waves-effect waves-light green" href="bitcoin:1Hi6wt2V2oTyZS4Lzm2Zr8Go6E3zMyTVf" target="_blank" onclick="Materialize.toast('Redirected to BitCoin donation page', 4500)"><i class="material-icons">send</i></a>
+          </div>
+          <div class="card-content" align="left">
+            <font color="#323232">{% capture donate_bitcoin %}{% include donate_bitcoin.md %}{% endcapture %}
+              {{ donate_bitcoin | markdownify }}</font>
+          </div>
+          <!--
+          <div class="card-action">
+            <a href="https://www.github.com/cSploit/" onclick="Materialize.toast('Redirecting to PayPal...', 4500)"><b>PayPal</b></a>
+            <a href="https://www.youtube.com" onclick="Materialize.toast('Redirecting to GitHub...', 4500)">More Info</a>
+          </div>
+          -->
+        </div>
+      </div>
+    </div>
 <br>
+    <div class="row mobile-padding"> <!--TODO FIX ALIGN & REPLACE WITH TABS -->
+      {% capture donate %}{% include donate.md %}{% endcapture %}
+      {{ donate | markdownify }}
+    </div>
+      <br><br><br>
 
-<p>
-The main goal of this crowdfunding is to purchase a small set of stuff to help the development.
-<ul>
-  <li>- A new Thinkpad laptop with a good battery and memory</li>
-  <li>- A set of common WiFi adapters</li>
-  <li>- Some bluetooth adapter to add bluetooth hacking feature</li>
-  <li>- Some OTG adapters for pentestng over Ethernet and USB</li>
-  <li>- An old used iPhone</li>
-  <li>- csploit.org DNS record</li>
-</ul>
-As now I’m using a Thinkpad T60, purchased by a kindness guy of you.<br>
-Sadly the battery life it’s about 30 minutes ( even if I purchased the biggest one ).<br>
-Also using heavy development tools require a lot of memory, as now 3GB of memory isn’t enough.<br>
-<br />
-Thanks for your help! <i class="material-icons">thumb_up</i></p>
-
+  </div>
+</div>
