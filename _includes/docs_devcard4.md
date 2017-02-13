@@ -1,2 +1,0 @@
-##### **Debugging**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et efficitur enim. Vestibulum ac feugiat ante, tincidunt ultrices lectus. Cras molestie auctor arcu, viverra suscipit ante porttitor at

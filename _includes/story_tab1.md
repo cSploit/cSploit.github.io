@@ -1,2 +1,0 @@
-cSploit was originally created by evilsocket. 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sagittis nulla. Quisque placerat iaculis feugiat. Nullam in enim leo. Nulla sed porttitor est, et tempor lorem. Nullam eleifend sem id risus semper consectetur. Duis luctus lacus mauris, ac dapibus nibh gravida vitae. Sed vehicula mi non vehicula tristique. Curabitur blandit turpis a quam pharetra mattis. Duis venenatis venenatis mattis. Aenean congue convallis velit sed condimentum. Etiam suscipit semper erat sed rhoncus. Nam non pretium sem.
