@@ -1,0 +1,42 @@
+<br><br>
+
+#### Current project status
+
+We are in a delicate first phase of this project and we are not stable, yet. Currently we are moving many parts of the code into a new core.
+Even if you see a release marked as __release__, this does not mean that it has no bugs.
+My apologies for that, I'm doing my best to achieve a stable app :v:.
+
+#### Possible error
+
+A short error message isn't often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common examples that explain some errors:
+
+<ul class="collection">
+  <li class="collection-item">cannot start process: this message is printed when the core of cSploit cannot start the required process</li>
+  <li class="collection-item"><b>cmd</b> returned <b>#number</b>: this message is printed when <b>cmd</b> has exited with an error code <b>number</b></li>
+  <li class="collection-item"><b>cmd</b> killed by signal <b>number</b>: this message is printed when <b>cmd</b> has been killed by signal <b>number</b></li>
+</ul>
+
+The errors above are bugs that are specific for your device. Hence, please report them if no one already did.
+
+#### Reporting bugs
+
+I'm human, thus I can fail. This is why we need a good issue tracker like the one provided by github.
+I'm working on an automated way of reporting bugs directly from the app just by clicking on a button. Until then you have to manually collect your logcat and share it on the [github issues page](https://github.com/cSploit/android/issues).
+
+#### FAQ
+
+##### Is cSploit the same as dSploit ?
+
+The basic code is the same but I'm continuing the development since dSploit has been officially merged into zANTI2.
+
+-----
+
+##### When will feature XYZ implemented or bug ABC fixed?
+
+Like on every other open source project - don't ask for ETA :grin:
+
+-----
+
+##### How can I contribute to cSploit ?
+
+There are many ways to contribute: by [donating](http://www.csploit.org/donate), by improving the [source code](https://github.com/cSploit/android) or by [correcting](https://github.com/cSploit/cSploit.github.io) my English on this website.

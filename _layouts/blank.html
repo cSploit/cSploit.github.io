@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/png" href="{{ "favicon.png" | prepend: site.baseurl }}" />
+    <link rel="icon" type="image/png" href="{{ '../favicon.png' | prepend: site.baseurl }}" />
     <meta name="theme-color" content="#01579B">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
@@ -14,18 +14,20 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="cSploit">
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="../favicon.png">
+
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="cSploit">
-    <link rel="apple-touch-icon" href="favicon.png">
+
+    <link rel="apple-touch-icon" href="../favicon.png">
     <meta name="msapplication-TileImage" content="favicon.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="../favicon.png">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ "feed.xml" | prepend: site.baseurl }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ 'feed.xml' | prepend: site.baseurl }}">
     {% if site.disqus_username  and page.id %}
     <script type="text/javascript">
       var disqus_shortname = '{{ site.disqus_username }}';
@@ -38,17 +40,18 @@
     {% endif %}
     
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <script src="{{ "init.js" | prepend: site.baseurl }}"></script>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}" >
-    
+    <script src="../js/init.js"></script>
+    <script src="http://timeago.yarp.com/jquery.timeago.js"></script>
+
+    <script src="../js/materialize.js"></script>
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link rel="stylesheet" href="../css/main.css" >
+    <link rel="stylesheet" href="../css/materialize.css" >
+
     {% if site.isso_domain and page.id %}<script data-isso="http://{{ site.isso_domain }}" src="//{{ site.isso_domain }}/js/embed.min.js"></script>{% endif %}
   </head>
   <body>
-    <!-- navbar -->
-    <nav class="light-blue darken-4" role="navigation">
+    <nav class="indigo" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="{{ site.baseurl }}" class="brand-logo right">{{ site.title }}</a>
         {% capture page_list %}
@@ -72,18 +75,19 @@
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
-    <br/>
+
+
     <main>
 {{ content }}
     </main>
-    <br />
-    <footer class="page-footer light-blue darken-4">
+
+
+    <footer class="page-footer indigo">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">About cSploit</h5>
-            <p class="grey-text text-lighten-4">The most complete and advanced IT security professional toolkit on Android. <a href="/story">More...</a></p>
-
+            <p class="grey-text text-lighten-4">The most complete and advanced IT security professional toolkit on Android. <a href="story"><font style="">More...</font></a></p>
 
           </div>
           <div class="col l3 s12">
@@ -96,15 +100,15 @@
           <div class="col l3 s12">
             <h5 class="white-text">About</h5>
             <ul>
-              <li class="white-text">Website made by <u><a class="white-text" target="_blank" href="http://www.dominiktv.net">DominikTV</a></u></li>
-              <li class="white-text">CSS-Framework by <u><a class="white-text" target="_blank" href="http://materializecss.com">Materialize</a></u></li>
+              <li class="white-text">Website made by <u><a class="link-footer" target="_blank" href="http://www.dominiktv.net">DominikTV</a></u></li>
+              <li class="white-text">CSS-Framework by <u><a class="link-footer" target="_blank" href="http://materializecss.com">Materialize</a></u></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-        Copyright &copy; {{ site.time | date: '%Y' }} cSploit<br>
+        Copyright &copy; {{ site.time | date: '%Y' }} cSploit
         </div>
       </div>
     </footer>
