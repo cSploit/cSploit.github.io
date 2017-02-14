@@ -13,7 +13,7 @@ I'm going to purchase some new toys to develop new software:
 
 ### T510 notebook
 
-it comes from a kindness guy ( with much :heart: ),
+It comes from a kindness guy ( with much :heart: ),
 I just payed the shipment cost.
 I already received it and I'm configuring it to work with.
 
@@ -23,7 +23,7 @@ This is great since the fingerprint does not work and I'll going to replace it.
 
 I really have to meet this guy to thank him !
 
-this notebook it's great and has nothing to do with my old T60,
+This notebook it's great and has nothing to do with my old T60,
 I can have 2 windows of my IDE with chromium and telegram and no slowdown!
 
 I'm going to purchase RAM and an SSD to work even better,
