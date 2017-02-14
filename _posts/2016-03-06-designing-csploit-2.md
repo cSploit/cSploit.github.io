@@ -33,9 +33,9 @@ One of the major ones was the MitM performances: when a lot of traffic passed th
 
 ### The current cSploit
 
-The idea behind cSploit is to rewrite the "problematic stuff" of the app into C ( from there the new app name).
-As now there is a daemon ( cSploitd ) that just manage child processes.
-The Java app connects to it via a unix socket ( using a native library ) and use it to spawn processes and get their results.
+The idea behind cSploit is to rewrite the "problematic stuff" of the app into C (From there the new app name).
+As now there is a daemon (cSploitd) that just manage child processes.
+The Java app connects to it via a unix socket (Using a native library) and use it to spawn processes and get their results.
 This a very "old school" architecture, hard to maintain, hard to add a new tool to our set and so on.
 
 I probably made a bad choice when I was forced to abandon the dSploit project as it were merged into zAnti.
@@ -52,7 +52,7 @@ For the frontend I was loooking to angularJS and cordova.
 For the backend I was looking at Go.
 
 AngularJS, HTML5, CSS3 will make us able to provide a web client to the daemon (responsive [PC, mobile, tablet]).
-Cordova ( and maybe Ionic ) will then take care of turning this web app into a mobile app for any kind of mobile platform ( Android, iOS, blackberry, windows phone ... ).
+Cordova (And maybe Ionic) will then take care of turning this web app into a mobile app for any kind of mobile platform ( Android, iOS, blackberry, windows phone ... ).
 
 For the backend I was looking to Go because the alternatives just do not fit well with android and it's performances are simply awesome.
 I love the idea of having a compiled daemon ( this is because I designed cSploit daemon in C ), it just run very fast!
