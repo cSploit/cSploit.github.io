@@ -2,7 +2,7 @@
 title: Working on SSL
 categories: news
 ---
-
+#### SSL Hacking
 Yesterday a my friend asked me to intercept some kind of SSL-secured session.
 
 Rigth now I'm working on putting some extra feature into cSploit to intercept secured communications.
@@ -11,14 +11,14 @@ I'm working on 2 features:
 
 <ul class="collection">
   <li class="collection-item">DNS aliasing to bypass HSTS</li>
-  <li class="collection-item">inject cSploit CA certificate</li>
+  <li class="collection-item">Inject cSploit CA certificate</li>
 </ul>
 
 I think that the cleaner approach is the root CA certificate injection,
-as it will allow us to sniff even those connection that are started over SSL.
+As it will allow us to sniff even those connection that are started over SSL.
 
-Obviously this method will pop up a dialog on the victim phone ( I'm testing on Android and iOS ),
-asking him to add our root CA certificate.
+Obviously this method will pop up a dialog on the victim phone (I'm testing on Android and iOS),
+Asking him to add our root CA certificate.
 
 I bet that many users are too dummy and will just press "go on".
 
