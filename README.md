@@ -4,7 +4,7 @@
 ```bash
 gem update
 gem install bundler jekyll jemoji
-buldler exec jekyll serve
+bundler exec jekyll serve
 ```
 ### Output
 ```
