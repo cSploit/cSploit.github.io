@@ -34,7 +34,7 @@ Configuration file: /Users/andrea/Desktop/cSploit.github.io/_config.yml
 - [ ] Log all loadings with a web-inspector
 - [ ] Add google-analytics script to monotor traffic in blank
 - [ ] Compleate toasts
-- [ ] Finish pages
+- [X] Finish pages
 
 
 ### Warning: Known issues
