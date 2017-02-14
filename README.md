@@ -31,8 +31,8 @@ Configuration file: /Users/andrea/Desktop/cSploit.github.io/_config.yml
 - [ ] Create new gradients
 - [ ] Make UI more fluid and responsive
 - [ ] Use a code-window plugin to host code on github using getter via row
-- [ ] Log all loadings with a web-inspector
-- [ ] Add google-analytics script to monotor traffic in blank
+- [ ] Dump all loadings with a web-inspector and tweak resources loading time
+- [ ] Add google-analytics script to monotor traffic in blank (Maybe)
 - [ ] Compleate toasts
 - [X] Finish pages
 
