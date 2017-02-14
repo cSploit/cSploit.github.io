@@ -3,6 +3,7 @@ title: Quick update on the cSploit2 development
 categories: news
 author: tux_mind
 ---
+#### cSploit 2 Update
 
 We are reaching an alpha state of the web app. After that we can start
 working on a mobile client ( both Android and iOS ) which talk
