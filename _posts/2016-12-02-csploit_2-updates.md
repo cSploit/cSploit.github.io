@@ -29,7 +29,7 @@ We will use a web based UI (provide more portability accross the different platf
 
 ##### What's planed?
 <ul class="collection">
-  <li class="collection-item">I will work on implementing rogue APs (thanks to the [mana](https://github.com/sensepost/mana) project) and Wps attacks</li>
+  <li class="collection-item">I will work on implementing rogue APs (thanks to the <a href="https://github.com/sensepost/mana">mana</a> project) and Wps attacks</li>
   <li class="collection-item">Tux-mind is working very hard on the daemon (can't quote everything :smile:!).
   <li class="collection-item">Napitek is working on evilproxy</li>
   <li class="collection-item">IwraStudios is working on dns2proxy</li>

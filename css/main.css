@@ -408,3 +408,8 @@ main {
   color: #000000;
   background-color: #000000;
 }
+
+.link-footer {
+  color: #EEEEEE !important;
+  text-decoration: none !important;
+}

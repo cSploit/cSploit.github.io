@@ -81,34 +81,35 @@
 {{ content }}
     </main>
 
-
     <footer class="page-footer indigo">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">About cSploit</h5>
-            <p class="grey-text text-lighten-4">The most complete and advanced IT security professional toolkit on Android. <a href="story"><font style="">More...</font></a></p>
+            <p class="grey-text text-lighten-4">The most complete and advanced IT security professional toolkit on Android. <a href="/story"><font color="#FFFFFF" style="text-decoration: none !important;">More...</font></a></p>
 
           </div>
           <div class="col l3 s12">
             <h5 class="white-text">Project links</h5>
             <ul>
-              <li><u><a class="white-text" href="https://github.com/cSploit/android">Github Android Project Page</a></u></li>
-              <li><u><a class="white-text" href="https://github.com/cSploit/cSploit.github.io">Github Website Project Page</a></u></li>
+              <li><a class="white-text" onclick="Materialize.toast('Redirecting to Github...', 4500)" href="https://github.com/cSploit/android">Github Android Project Page</a></li>
+              <li><a class="white-text" onclick="Materialize.toast('Redirecting to Github...', 4500)" href="https://github.com/cSploit/cSploit.github.io">Github Website Project Page</a>
+              </li>
             </ul>
           </div>
           <div class="col l3 s12">
             <h5 class="white-text">About</h5>
             <ul>
-              <li class="white-text">Website made by <u><a class="link-footer" target="_blank" href="http://www.dominiktv.net">DominikTV</a></u></li>
-              <li class="white-text">CSS-Framework by <u><a class="link-footer" target="_blank" href="http://materializecss.com">Materialize</a></u></li>
+              <li class="white-text">Website made by <a onclick="Materialize.toast('Redirecting to DominikTV...', 4500)" class="link-footer" target="_blank" href="http://www.dominiktv.net">DominikTV</a></li>
+              <li class="white-text">CSS-Framework by <a onclick="Materialize.toast('Redirecting to Materializecss.com...', 4500)" class="link-footer" target="_blank" href="http://materializecss.com">Materialize</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-        Copyright &copy; {{ site.time | date: '%Y' }} cSploit
+          <!-- build-full-date.js | build-year.js | {{ site.time | date: '%Y' }} -->
+          Copyright &copy; <script src="../js/build-full-date.js"></script> cSploit
         </div>
       </div>
     </footer>
