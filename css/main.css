@@ -2,13 +2,12 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
   flex: 1 0 auto;
 }
-
-
 
 .dcard-panel {
   transition: box-shadow .25s;
@@ -395,6 +394,7 @@ main {
   background-color: #6f6d6d;
   transition: .25s ease;
 }
+
 .github-button:hover {
    background-color: #797777;
 }

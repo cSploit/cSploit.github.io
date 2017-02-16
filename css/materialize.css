@@ -1,8 +1,3 @@
-/*!
- * Materialize v0.98.0 (http://materializecss.com)
- * Copyright 2014-2015 Materialize
- * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
- */
 .materialize-red {
     background-color: #e51c23 !important;
 }
@@ -2139,36 +2134,16 @@
     color: transparent !important;
 }
 
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
 html {
     font-family: sans-serif;
-    /* 1 */
     -ms-text-size-adjust: 100%;
-    /* 2 */
     -webkit-text-size-adjust: 100%;
-    /* 2 */
 }
 
-/**
- * Remove default margin.
- */
 body {
     margin: 0;
 }
 
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
 article,
 aside,
 details,
@@ -2185,107 +2160,57 @@ summary {
     display: block;
 }
 
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
 audio,
 canvas,
 progress,
 video {
     display: inline-block;
-    /* 1 */
     vertical-align: baseline;
-    /* 2 */
 }
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
 audio:not([controls]) {
     display: none;
     height: 0;
 }
-
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
- */
 [hidden],
 template {
     display: none;
 }
 
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
 a {
     background-color: transparent;
 }
 
-/**
- * Improve readability of focused elements when they are also in an
- * active/hover state.
- */
 a:active,
 a:hover {
     outline: 0;
 }
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
 abbr[title] {
     border-bottom: 1px dotted;
 }
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
 b,
 strong {
     font-weight: bold;
 }
 
-/**
- * Address styling not present in Safari and Chrome.
- */
 dfn {
     font-style: italic;
 }
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
 
-/**
- * Address styling not present in IE 8/9.
- */
 mark {
     background: #ff0;
     color: #000;
 }
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
 small {
     font-size: 80%;
 }
 
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
 sub,
 sup {
     font-size: 75%;
@@ -2302,49 +2227,26 @@ sub {
     bottom: -0.25em;
 }
 
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
 img {
     border: 0;
 }
 
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
 svg:not(:root) {
     overflow: hidden;
 }
-
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
 figure {
     margin: 1em 40px;
 }
 
-/**
- * Address differences between Firefox and other browsers.
- */
 hr {
     box-sizing: content-box;
     height: 0;
 }
 
-/**
- * Contain overflow in all browsers.
- */
 pre {
     overflow: auto;
 }
 
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
 code,
 kbd,
 pre,
@@ -2353,177 +2255,94 @@ samp {
     font-size: 1em;
 }
 
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
 button,
 input,
 optgroup,
 select,
 textarea {
     color: inherit;
-    /* 1 */
     font: inherit;
-    /* 2 */
     margin: 0;
-    /* 3 */
 }
 
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
 button {
     overflow: visible;
 }
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
 button,
 select {
     text-transform: none;
 }
 
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
-    /* 2 */
+    
     cursor: pointer;
-    /* 3 */
+    
 }
 
-/**
- * Re-set default cursor for disabled elements.
- */
 button[disabled],
 html input[disabled] {
     cursor: default;
 }
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
 input {
     line-height: normal;
 }
 
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
 input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box;
-    /* 1 */
+    
     padding: 0;
-    /* 2 */
+    
 }
 
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
- */
 input[type="search"] {
     -webkit-appearance: textfield;
-    /* 1 */
+    
     box-sizing: content-box;
-    /* 2 */
+    
 }
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
-/**
- * Define consistent border, margin, and padding.
- */
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
 legend {
     border: 0;
-    /* 1 */
+    
     padding: 0;
-    /* 2 */
+    
 }
-
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
 textarea {
     overflow: auto;
 }
 
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
 optgroup {
     font-weight: bold;
 }
 
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -2783,9 +2602,6 @@ video.responsive-video {
     position: fixed !important;
 }
 
-/*********************
-  Transition Classes
-**********************/
 ul.staggered-list li {
     opacity: 0;
 }
@@ -2796,9 +2612,6 @@ ul.staggered-list li {
     transform-origin: 0 50%;
 }
 
-/*********************
-  Media Query Classes
-**********************/
 @media only screen and (max-width: 600px) {
     .hide-on-small-only, .hide-on-small-and-down {
         display: none !important;
@@ -2937,7 +2750,6 @@ td, th {
         border-spacing: 0;
         display: block;
         position: relative;
-        /* sort out borders */
     }
     table.responsive-table td:empty:before {
         content: '\00a0';
@@ -3231,9 +3043,6 @@ td, th {
     }
 }
 
-/*******************
-  Utility Classes
-*******************/
 .hide {
     display: none !important;
 }
@@ -3337,7 +3146,6 @@ nav ul a span.badge {
     margin-top: calc(24px - 11px);
 }
 
-/* This is needed for some mobile phones to display the Google Icon font properly */
 .material-icons {
     text-rendering: optimizeLegibility;
     -webkit-font-feature-settings: 'liga';
@@ -4268,7 +4076,7 @@ html {
 
 @media only screen and (min-width: 992px) {
     html {
-        font-size: 14.5px;
+        font-size: 14px;
     }
 }
 
@@ -4481,16 +4289,12 @@ small {
 
 .scale-transition {
     transition: -webkit-transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
-    transition: transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
-    transition: transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63), -webkit-transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
 }
 
 .scale-transition.scale-out {
     -webkit-transform: scale(0);
     transform: scale(0);
     transition: -webkit-transform .2s !important;
-    transition: transform .2s !important;
-    transition: transform .2s, -webkit-transform .2s !important;
 }
 
 .scale-transition.scale-in {
@@ -5083,7 +4887,6 @@ button.btn-floating {
     height: 100%;
     left: auto;
     width: 500px;
-    /*width 100% only goes to width of button container */
 }
 
 .fixed-action-btn.horizontal ul li {
@@ -5268,14 +5071,6 @@ button.btn-floating {
     height: 18px;
 }
 
-/*!
- * Waves v0.6.0
- * http://fian.my.id/Waves
- *
- * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
 .waves-effect {
     position: relative;
     cursor: pointer;
@@ -5385,7 +5180,6 @@ button.btn-floating {
     display: block;
 }
 
-/* Firefox Bug: link not triggered */
 .waves-effect .waves-ripple {
     z-index: -1;
 }
@@ -5713,20 +5507,15 @@ label {
     color: #9e9e9e;
 }
 
-/* Text Inputs + Textarea
-   ========================================================================== */
-/* Style Placeholders */
 ::-webkit-input-placeholder {
     color: #d1d1d1;
 }
 
 :-moz-placeholder {
-    /* Firefox 18- */
     color: #d1d1d1;
 }
 
 ::-moz-placeholder {
-    /* Firefox 19+ */
     color: #d1d1d1;
 }
 
@@ -5734,7 +5523,6 @@ label {
     color: #d1d1d1;
 }
 
-/* Text inputs */
 input:not([type]),
 input[type=text],
 input[type=password],
@@ -6092,7 +5880,6 @@ textarea.materialize-textarea + label:after {
     }
 }
 
-/* Search Field */
 .input-field input[type=search] {
     display: block;
     line-height: inherit;
@@ -6128,7 +5915,6 @@ textarea.materialize-textarea + label:after {
     transition: .3s color;
 }
 
-/* Textarea */
 textarea {
     width: 100%;
     height: 3rem;
@@ -6137,9 +5923,7 @@ textarea {
 
 textarea.materialize-textarea {
     overflow-y: hidden;
-    /* prevents scroll bar flash */
     padding: .8rem 0 1.6rem 0;
-    /* prevents text jump on Enter keypress */
     resize: none;
     min-height: 3rem;
 }
@@ -6149,12 +5933,9 @@ textarea.materialize-textarea {
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    /* future version of deprecated 'word-wrap' */
     padding-top: 1.2rem;
-    /* prevents text jump on Enter keypress */
 }
 
-/* Autocomplete */
 .autocomplete-content {
     margin-top: -15px;
     display: block;
@@ -6172,8 +5953,6 @@ textarea.materialize-textarea {
     margin: 5px 15px;
 }
 
-/* Radio Buttons
-   ========================================================================== */
 [type="radio"]:not(:checked),
 [type="radio"]:checked {
     position: absolute;
@@ -6191,7 +5970,6 @@ textarea.materialize-textarea {
     line-height: 25px;
     font-size: 1rem;
     transition: .28s ease;
-    /* webkit (konqueror) browsers */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -6211,7 +5989,6 @@ textarea.materialize-textarea {
     transition: .28s ease;
 }
 
-/* Unchecked styles */
 [type="radio"]:not(:checked) + label:before,
 [type="radio"]:not(:checked) + label:after,
 [type="radio"]:checked + label:before,
@@ -6231,7 +6008,6 @@ textarea.materialize-textarea {
     transform: scale(0);
 }
 
-/* Checked styles */
 [type="radio"]:checked + label:before {
     border: 2px solid transparent;
 }
@@ -6252,18 +6028,15 @@ textarea.materialize-textarea {
     transform: scale(1.02);
 }
 
-/* Radio With gap */
 [type="radio"].with-gap:checked + label:after {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
 }
 
-/* Focused styles */
 [type="radio"].tabbed:focus + label:before {
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Disabled Radio With gap */
 [type="radio"].with-gap:disabled:checked + label:before {
     border: 2px solid rgba(0, 0, 0, 0.26);
 }
@@ -6273,7 +6046,6 @@ textarea.materialize-textarea {
     background-color: rgba(0, 0, 0, 0.26);
 }
 
-/* Disabled style */
 [type="radio"]:disabled:not(:checked) + label:before,
 [type="radio"]:disabled:checked + label:before {
     background-color: transparent;
@@ -6293,9 +6065,6 @@ textarea.materialize-textarea {
     border-color: #BDBDBD;
 }
 
-/* Checkboxes
-   ========================================================================== */
-/* CUSTOM CSS CHECKBOXES */
 form p {
     margin-bottom: 10px;
     text-align: left;
@@ -6305,7 +6074,6 @@ form p:last-child {
     margin-bottom: 0;
 }
 
-/* Remove default checkbox */
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
     position: absolute;
@@ -6314,7 +6082,6 @@ form p:last-child {
 }
 
 [type="checkbox"] {
-    /* checkbox aspect */
 }
 
 [type="checkbox"] + label {
@@ -6326,13 +6093,9 @@ form p:last-child {
     line-height: 25px;
     font-size: 1rem;
     -webkit-user-select: none;
-    /* webkit (safari, chrome) browsers */
     -moz-user-select: none;
-    /* mozilla browsers */
     -khtml-user-select: none;
-    /* webkit (konqueror) browsers */
     -ms-user-select: none;
-    /* IE10+ */
 }
 
 [type="checkbox"] + label:before,
@@ -6392,7 +6155,6 @@ form p:last-child {
     border-bottom: 2px solid rgba(0, 0, 0, 0.26);
 }
 
-/* Indeterminate checkbox */
 [type="checkbox"]:indeterminate + label:before {
     top: -11px;
     left: -12px;
@@ -6424,7 +6186,6 @@ form p:last-child {
     content: '';
     left: 0;
     position: absolute;
-    /* .1s delay is for check animation */
     transition: border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;
     z-index: 1;
 }
@@ -6505,8 +6266,6 @@ form p:last-child {
     border-color: #BDBDBD;
 }
 
-/* Switch
-   ========================================================================== */
 .switch,
 .switch * {
     -webkit-user-select: none;
@@ -6581,8 +6340,6 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
     background-color: #BDBDBD;
 }
 
-/* Select Field
-   ========================================================================== */
 select {
     display: none;
 }
@@ -6654,11 +6411,8 @@ select:disabled {
     color: rgba(0, 0, 0, 0.3);
     cursor: default;
     -webkit-user-select: none;
-    /* webkit (safari, chrome) browsers */
     -moz-user-select: none;
-    /* mozilla browsers */
     -ms-user-select: none;
-    /* IE10+ */
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -6706,8 +6460,6 @@ select:disabled {
     padding-left: 1rem;
 }
 
-/* File Input
-   ========================================================================== */
 .file-field {
     position: relative;
 }
@@ -6746,8 +6498,6 @@ select:disabled {
     filter: alpha(opacity=0);
 }
 
-/* Range
-   ========================================================================== */
 .range-field {
     position: relative;
 }
@@ -6835,9 +6585,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 input[type=range] {
-    /* fix for FF unable to apply focus style bug  */
     border: 1px solid white;
-    /*required for proper track sizing in FF*/
 }
 
 input[type=range]::-moz-range-track {
@@ -6869,7 +6617,6 @@ input[type=range]::-ms-track {
     background: transparent;
     border-color: transparent;
     border-width: 6px 0;
-    /*remove default tick marks*/
     color: transparent;
 }
 
@@ -6897,9 +6644,6 @@ input[type=range]:focus::-ms-fill-upper {
     background: #ccc;
 }
 
-/***************
-    Nav List
-***************/
 .table-of-contents.fixed {
     position: fixed;
 }
@@ -7145,31 +6889,6 @@ input[type=range]:focus::-ms-fill-upper {
     will-change: opacity;
 }
 
-/*
-    @license
-    Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
-    This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-    The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-    The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-    Code distributed by Google as part of the polymer project is also
-    subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
- */
-/**************************/
-/* STYLES FOR THE SPINNER */
-/**************************/
-/*
- * Constants:
- *      STROKEWIDTH = 3px
- *      ARCSIZE     = 270 degrees (amount of circle the arc takes up)
- *      ARCTIME     = 1333ms (time it takes to expand and contract arc)
- *      ARCSTARTROT = 216 degrees (how much the start location of the arc
- *                                should rotate each time, 216 gives us a
- *                                5 pointed star shape (it's 360/5 * 3).
- *                                For a 7 pointed star, we might do
- *                                360/7 * 3 = 154.286)
- *      CONTAINERWIDTH = 28px
- *      SHRINK_TIME = 400ms
- */
 .preloader-wrapper {
     display: inline-block;
     position: relative;
@@ -7188,7 +6907,6 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .preloader-wrapper.active {
-    /* duration: 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
     -webkit-animation: container-rotate 1568ms linear infinite;
     animation: container-rotate 1568ms linear infinite;
 }
@@ -7234,39 +6952,22 @@ input[type=range]:focus::-ms-fill-upper {
     border-color: #0f9d58;
 }
 
-/**
- * IMPORTANT NOTE ABOUT CSS ANIMATION PROPERTIES (keanulee):
- *
- * iOS Safari (tested on iOS 8.1) does not handle animation-delay very well - it doesn't
- * guarantee that the animation will start _exactly_ after that value. So we avoid using
- * animation-delay and instead set custom keyframes for each color (as redundant as it
- * seems).
- *
- * We write out each animation in full (instead of separating animation-name,
- * animation-duration, etc.) because under the polyfill, Safari does not recognize those
- * specific properties properly, treats them as -webkit-animation, and overrides the
- * other animation rules. See https://github.com/Polymer/platform/issues/53.
- */
 .active .spinner-layer.spinner-blue {
-    /* durations: 4 * ARCTIME */
     -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
     animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .spinner-layer.spinner-red {
-    /* durations: 4 * ARCTIME */
     -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
     animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .spinner-layer.spinner-yellow {
-    /* durations: 4 * ARCTIME */
     -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
     animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .spinner-layer.spinner-green {
-    /* durations: 4 * ARCTIME */
     -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
     animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
@@ -7276,7 +6977,6 @@ input[type=range]:focus::-ms-fill-upper {
 .active .spinner-layer.spinner-red-only,
 .active .spinner-layer.spinner-yellow-only,
 .active .spinner-layer.spinner-green-only {
-    /* durations: 4 * ARCTIME */
     opacity: 1;
     -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
     animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -7286,35 +6986,27 @@ input[type=range]:focus::-ms-fill-upper {
     12.5% {
         -webkit-transform: rotate(135deg);
     }
-    /* 0.5 * ARCSIZE */
     25% {
         -webkit-transform: rotate(270deg);
     }
-    /* 1   * ARCSIZE */
     37.5% {
         -webkit-transform: rotate(405deg);
     }
-    /* 1.5 * ARCSIZE */
     50% {
         -webkit-transform: rotate(540deg);
     }
-    /* 2   * ARCSIZE */
     62.5% {
         -webkit-transform: rotate(675deg);
     }
-    /* 2.5 * ARCSIZE */
     75% {
         -webkit-transform: rotate(810deg);
     }
-    /* 3   * ARCSIZE */
     87.5% {
         -webkit-transform: rotate(945deg);
     }
-    /* 3.5 * ARCSIZE */
     to {
         -webkit-transform: rotate(1080deg);
     }
-    /* 4   * ARCSIZE */
 }
 
 @keyframes fill-unfill-rotate {
@@ -7322,42 +7014,34 @@ input[type=range]:focus::-ms-fill-upper {
         -webkit-transform: rotate(135deg);
         transform: rotate(135deg);
     }
-    /* 0.5 * ARCSIZE */
     25% {
         -webkit-transform: rotate(270deg);
         transform: rotate(270deg);
     }
-    /* 1   * ARCSIZE */
     37.5% {
         -webkit-transform: rotate(405deg);
         transform: rotate(405deg);
     }
-    /* 1.5 * ARCSIZE */
     50% {
         -webkit-transform: rotate(540deg);
         transform: rotate(540deg);
     }
-    /* 2   * ARCSIZE */
     62.5% {
         -webkit-transform: rotate(675deg);
         transform: rotate(675deg);
     }
-    /* 2.5 * ARCSIZE */
     75% {
         -webkit-transform: rotate(810deg);
         transform: rotate(810deg);
     }
-    /* 3   * ARCSIZE */
     87.5% {
         -webkit-transform: rotate(945deg);
         transform: rotate(945deg);
     }
-    /* 3.5 * ARCSIZE */
     to {
         -webkit-transform: rotate(1080deg);
         transform: rotate(1080deg);
     }
-    /* 4   * ARCSIZE */
 }
 
 @-webkit-keyframes blue-fade-in-out {
@@ -7510,10 +7194,6 @@ input[type=range]:focus::-ms-fill-upper {
     }
 }
 
-/**
- * Patch the gap that appear between the two adjacent div.circle-clipper while the
- * spinner is rotating (appears on Chrome 38, Safari 7.1, and IE 11).
- */
 .gap-patch {
     position: absolute;
     top: 0;
@@ -7542,7 +7222,6 @@ input[type=range]:focus::-ms-fill-upper {
     width: 200%;
     height: 100%;
     border-width: 3px;
-    /* STROKEWIDTH */
     border-style: solid;
     border-color: inherit;
     border-bottom-color: transparent !important;
@@ -7570,13 +7249,11 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .active .circle-clipper.left .circle {
-    /* duration: ARCTIME */
     -webkit-animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
     animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .circle-clipper.right .circle {
-    /* duration: ARCTIME */
     -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
     animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
@@ -7636,7 +7313,6 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #spinnerContainer.cooldown {
-    /* duration: SHRINK_TIME */
     -webkit-animation: container-rotate 1568ms linear infinite, fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);
     animation: container-rotate 1568ms linear infinite, fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -7838,12 +7514,6 @@ input[type=range]:focus::-ms-fill-upper {
     background-color: #fff;
 }
 
-/* ==========================================================================
-   $BASE-PICKER
-   ========================================================================== */
-/**
- * Note: the root picker element should *NOT* be styled more than what's here.
- */
 .picker {
     font-size: 16px;
     text-align: left;
@@ -7857,39 +7527,21 @@ input[type=range]:focus::-ms-fill-upper {
     user-select: none;
 }
 
-/**
- * The picker input element.
- */
 .picker__input {
     cursor: default;
 }
 
-/**
- * When the picker is opened, the input element is "activated".
- */
 .picker__input.picker__input--active {
     border-color: #0089ec;
 }
 
-/**
- * The holder is the only "scrollable" top-level container element.
- */
+
 .picker__holder {
     width: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
 
-/*!
- * Default mobile-first, responsive styling for pickadate.js
- * Demo: http://amsul.github.io/pickadate.js
- */
-/**
- * Note: the root picker element should *NOT* be styled more than what's here.
- */
-/**
- * Make the holder and frame fullscreen.
- */
 .picker__holder,
 .picker__frame {
     bottom: 0;
@@ -7898,18 +7550,11 @@ input[type=range]:focus::-ms-fill-upper {
     top: 100%;
 }
 
-/**
- * The holder should overlay the entire screen.
- */
 .picker__holder {
     position: fixed;
     transition: background 0.15s ease-out, top 0s 0.15s;
     -webkit-backface-visibility: hidden;
 }
-
-/**
- * The frame that bounds the box contents of the picker.
- */
 .picker__frame {
     position: absolute;
     margin: 0 auto;
@@ -7938,9 +7583,6 @@ input[type=range]:focus::-ms-fill-upper {
     }
 }
 
-/**
- * The wrapper sets the stage to vertically align the box contents.
- */
 .picker__wrap {
     display: table;
     width: 100%;
@@ -7953,9 +7595,6 @@ input[type=range]:focus::-ms-fill-upper {
     }
 }
 
-/**
- * The box contains all the picker contents.
- */
 .picker__box {
     background: #ffffff;
     display: table-cell;
@@ -7973,9 +7612,6 @@ input[type=range]:focus::-ms-fill-upper {
     }
 }
 
-/**
- * When the picker opens...
- */
 .picker--opened .picker__holder {
     top: 0;
     background: transparent;
@@ -7999,13 +7635,6 @@ input[type=range]:focus::-ms-fill-upper {
         bottom: auto;
     }
 }
-
-/**
- * For `large` screens, transform into an inline picker.
- */
-/* ==========================================================================
-   CUSTOM MATERIALIZE STYLES
-   ========================================================================== */
 .picker__input.picker__input--active {
     border-color: #E3F2FD;
 }
@@ -8022,28 +7651,18 @@ input[type=range]:focus::-ms-fill-upper {
     }
 }
 
-/* ==========================================================================
-   $BASE-DATE-PICKER
-   ========================================================================== */
-/**
- * The picker box.
- */
 .picker__box {
     padding: 0 1em;
 }
 
-/**
- * The header containing the month and year stuff.
- */
+
 .picker__header {
     text-align: center;
     position: relative;
     margin-top: .75em;
 }
 
-/**
- * The month and year labels.
- */
+
 .picker__month,
 .picker__year {
     display: inline-block;
@@ -8051,9 +7670,7 @@ input[type=range]:focus::-ms-fill-upper {
     margin-right: .25em;
 }
 
-/**
- * The month and year selectors.
- */
+
 .picker__select--month,
 .picker__select--year {
     height: 2em;
@@ -8079,9 +7696,7 @@ input[type=range]:focus::-ms-fill-upper {
     border-color: rgba(0, 0, 0, 0.05);
 }
 
-/**
- * The month navigation buttons.
- */
+
 .picker__nav--prev,
 .picker__nav--next {
     position: absolute;
@@ -8112,9 +7727,6 @@ input[type=range]:focus::-ms-fill-upper {
     border-left-color: #f5f5f5;
 }
 
-/**
- * The calendar table of dates
- */
 .picker__table {
     text-align: center;
     border-collapse: collapse;
@@ -8135,16 +7747,12 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0;
 }
 
-/**
- * The weekday labels
- */
 .picker__weekday {
     width: 14.285714286%;
     font-size: .75em;
     padding-bottom: .25em;
     color: #999999;
     font-weight: 500;
-    /* Increase the spacing a tad */
 }
 
 @media (min-height: 33.875em) {
@@ -8153,13 +7761,10 @@ input[type=range]:focus::-ms-fill-upper {
     }
 }
 
-/**
- * The days on the calendar
- */
 .picker__day--today {
     position: relative;
     color: #595959;
-    letter-spacing: -.3;
+    letter-spacing: -0.3;
     padding: .75rem 0;
     font-weight: 400;
     border: 1px solid transparent;
@@ -8216,9 +7821,6 @@ input[type=range]:focus::-ms-fill-upper {
     background: #bbbbbb;
 }
 
-/**
- * The footer containing the "today", "clear", and "close" buttons.
- */
 .picker__footer {
     text-align: center;
     display: -webkit-flex;
@@ -8309,10 +7911,6 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__button--today[disabled]:before {
     border-top-color: #aaaaaa;
 }
-
-/* ==========================================================================
-   CUSTOM MATERIALIZE STYLES
-   ========================================================================== */
 .picker__box {
     border-radius: 2px;
     overflow: hidden;
@@ -8442,21 +8040,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background-color: #a1ded8;
 }
 
-/* ==========================================================================
-   $BASE-TIME-PICKER
-   ========================================================================== */
-/**
- * The list of times.
- */
+
 .picker__list {
     list-style: none;
     padding: 0.75em 0 4.2em;
     margin: 0;
 }
 
-/**
- * The times on the clock.
- */
 .picker__list-item {
     border-bottom: 1px solid #dddddd;
     border-top: 1px solid #dddddd;
@@ -8472,7 +8062,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     }
 }
 
-/* Hovered time */
 .picker__list-item:hover {
     cursor: pointer;
     color: #000000;
@@ -8481,7 +8070,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     z-index: 10;
 }
 
-/* Highlighted and hovered/focused time */
 .picker__list-item--highlighted {
     border-color: #0089ec;
     z-index: 10;
@@ -8494,7 +8082,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background: #b1dcfb;
 }
 
-/* Selected and hovered/focused time */
 .picker__list-item--selected,
 .picker__list-item--selected:hover,
 .picker--focused .picker__list-item--selected {
@@ -8503,21 +8090,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     z-index: 10;
 }
 
-/* Disabled time */
 .picker__list-item--disabled,
 .picker__list-item--disabled:hover,
 .picker--focused .picker__list-item--disabled {
     background: #f5f5f5;
-    border-color: #f5f5f5;
     color: #dddddd;
     cursor: default;
-    border-color: #dddddd;
     z-index: auto;
 }
 
-/**
- * The clear button
- */
 .picker--time .picker__button--clear {
     display: block;
     width: 80%;
@@ -8534,12 +8115,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .picker--time .picker__button--clear:hover,
 .picker--time .picker__button--clear:focus {
-    color: #000000;
-    background: #b1dcfb;
-    background: #ee2200;
     border-color: #ee2200;
     cursor: pointer;
-    color: #ffffff;
     outline: none;
 }
 
@@ -8555,20 +8132,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     color: #ffffff;
 }
 
-/* ==========================================================================
-   $DEFAULT-TIME-PICKER
-   ========================================================================== */
-/**
- * The frame the bounds the time picker.
- */
 .picker--time .picker__frame {
     min-width: 256px;
     max-width: 320px;
 }
 
-/**
- * The picker box.
- */
 .picker--time .picker__box {
     font-size: 1em;
     background: #f2f2f2;
@@ -8579,4 +8147,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     .picker--time .picker__box {
         margin-bottom: 5em;
     }
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
 }
