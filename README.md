@@ -27,11 +27,11 @@ Configuration file: /Users/andrea/Desktop/cSploit.github.io/_config.yml
 - [X] Fix mobile paddingand & content align
 - [ ] Create github control center with JSON APIs interpreter in JS
 - [ ] Better resource loading with ksys @AndreaCioccarelli
-- [ ] Remove unuseful resources
+- [X] Remove unuseful resources
 - [ ] Create new gradients for pages and extra
 - [ ] Make UI more fluid and responsive
 - [ ] Use a code-window plugin to host code on github using getter via row
-- [ ] Dump all loadings with a web-inspector and tweak resources loading time
+- [X] Dump all loadings with a web-inspector and tweak resources loading time
 - [ ] Add google-analytics script to monotor traffic in blank (Maybe)
 - [ ] Compleate toasts and iframes
 - [X] Finish pages
@@ -39,4 +39,5 @@ Configuration file: /Users/andrea/Desktop/cSploit.github.io/_config.yml
 
 ### Warning: Known issues
 + Page gets 404 errors for each redirection. it's normal, because cSploit will try (Security reason) to redirect you at rootURL + directory and not at the clean directory. So, it will be fixed automatically when merged in master, because it'll set up automatically everything
-+ Markdown parsing issues, Them will be fixed soon :)
++ Markdown parsing issues, Them will be fixed soon
++ Font parsing (Apply) issue, also it will be fixed soon ;)
