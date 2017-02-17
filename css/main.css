@@ -211,6 +211,19 @@ main {
   }
 }
 
+
+.inline-gradient {
+  background-image: linear-gradient(150deg,#283593 22%,#5caf50 79%), linear-gradient(#4caf50,#5dbf60);
+  -webkit-clip-path: polygon(0 30%,100% 0, 100% 70%, 0 100%);
+}
+
+@media (max-width: 601px) {
+  .inline-gradient {
+    background-image: linear-gradient(150deg,#283593 22%,#5caf50 79%), linear-gradient(#4caf50,#5dbf60);
+    -webkit-clip-path: polygon(0 15%,100% 0, 100% 85%, 0 100%);
+  }
+}
+
 .docs-gradient {
   background-image: linear-gradient(-159deg,#030d50 22%,#2eccb2 79%,#f1fdb0),linear-gradient(#4e1b4e,#4e1b4e);
   -webkit-clip-path: polygon(0 0,100% 0, 100% 100%, 0 90%);
@@ -220,18 +233,6 @@ main {
   .docs-gradient {
     background-image: linear-gradient(-159deg,#030d50 22%,#2eccb2 79%,#f1fdb0),linear-gradient(#4e1b4e,#4e1b4e);
     -webkit-clip-path: polygon(0 0,100% 0, 100% 100%, 0 90%);
-  }
-}
-
-.downloads-gradient {
-  background-image: linear-gradient(150deg,#00BCD4 22%,#009688 44%, #00E676 88%);
-  -webkit-clip-path: polygon(0 0,100% 0, 100% 80%, 0 100%);
-}
-
-@media (max-width: 601px) {
-  .downloads-gradient {
-    background-image: linear-gradient(150deg,#00BCD4 22%,#009688 44%, #00E676 88%);
-    -webkit-clip-path: polygon(0 0,100% 0, 100% 90%, 0 90%);
   }
 }
 
@@ -276,17 +277,32 @@ main {
 }
 
 
-.inline-gradient {
-  background-image: linear-gradient(150deg,#283593 22%,#5caf50 79%), linear-gradient(#4caf50,#5dbf60);
+
+.downloads-gradient {
+  background-image: linear-gradient(-159deg,#1DE9B6 22%,#3D5AFE 79%),linear-gradient(#C51162,#C62828);
+  -webkit-clip-path: polygon(0 0,100% 0, 100% 100%, 0 90%);
+}
+
+@media (max-width: 601px) {
+  .downloads-gradient {
+    background-image: linear-gradient(-159deg,#1DE9B6 22%,#3D5AFE 79%),linear-gradient(#C51162,#C62828);
+    -webkit-clip-path: polygon(0 0,100% 0, 100% 100%, 0 90%);
+  }
+}
+
+.downloads-horizontal-gradient {
+  background-image: linear-gradient(-159deg,#1DE9B6 22%,#3D5AFE 79%),linear-gradient(#C51162,#C62828);
   -webkit-clip-path: polygon(0 30%,100% 0, 100% 70%, 0 100%);
 }
 
 @media (max-width: 601px) {
-  .inline-gradient {
-    background-image: linear-gradient(150deg,#283593 22%,#5caf50 79%), linear-gradient(#4caf50,#5dbf60);
+  .downloads-horizontal-gradient {
+    background-image: linear-gradient(-159deg,#1DE9B6 22%,#3D5AFE 79%),linear-gradient(#C51162,#C62828);
     -webkit-clip-path: polygon(0 15%,100% 0, 100% 85%, 0 100%);
   }
 }
+
+
 
 
 .image-paypal {
