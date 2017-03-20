@@ -1,0 +1,2 @@
+This release introduce several security fixes and improves UI, internal framework and introduse new features and functions useful to hack and test wireless network's security. It also uses WPA2 decryption mechanism to bypass wifi security mechanism... And other things like this, it should be a detailed changelog without lists or tables
+<br><br>

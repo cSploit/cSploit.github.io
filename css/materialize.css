@@ -4470,14 +4470,14 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-    color: #FF9800;
+    color: #FB8C00;
     margin-right: 24px;
     transition: color .3s ease;
     text-transform: uppercase;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-    color: #FF6F00;
+    color: #FFAB00;
 }
 
 .card .card-reveal {
@@ -4792,7 +4792,7 @@ small {
     color: #fff;
     background-color: #26a69a;
     text-align: center;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     transition: .2s ease-out;
     cursor: pointer;
 }

@@ -1,0 +1,1 @@
+Download the lastest build for Android. Remember that you can install the .apk file only if you allow third-party packages. Go to **Settings > Security > Unknown Source** to learn mode
