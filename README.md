@@ -38,5 +38,6 @@ Configuration file: /Users/andrea/Desktop/cSploit.github.io/_config.yml
 
 
 ### Warning: Known issues
-+ Page gets 404 errors for each redirection. it's normal, because cSploit will try (Security reason) to redirect you at rootURL + directory and not at the clean directory. So, it will be fixed automatically when merged in master, because it'll set up automatically everything
-+ Font parsing (Apply) issue, also it will be fixed soon ;)
++ Page gets 404 errors for each redirection. it's normal, because cSploit will try to redirect you at rootURL + directory and not at the clean url. So, it will be fixed automatically when merged in master, because it'll set up automatically everything
++ Font parsing (Apply) issue, also it will be fixed soon
++ Broken links on donation page
