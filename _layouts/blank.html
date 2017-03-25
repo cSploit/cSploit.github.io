@@ -43,6 +43,8 @@
     <script src="../js/init.js"></script>
     <script src="http://timeago.yarp.com/jquery.timeago.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:500&amp;subset=cyrillic-ext" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/github-v2.css">
 
     <script src="../js/materialize.js"></script>
     <link rel="stylesheet" href="../css/materialize.css">
@@ -51,7 +53,7 @@
 
     {% if site.isso_domain and page.id %}<script data-isso="http://{{ site.isso_domain }}" src="//{{ site.isso_domain }}/js/embed.min.js"></script>{% endif %}
   </head>
-  <body>
+  <body onload="PR.prettyPrint()">
     <nav class="indigo" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="{{ site.baseurl }}" class="brand-logo right">{{ site.title }}</a>

@@ -3,8 +3,6 @@ title: Docs
 position: 1
 layout: blank
 ---
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
 <div class="section no-pad-bot docs-gradient" id="index-banner">
     <div class="container">
         <br><br>
@@ -131,11 +129,12 @@ layout: blank
         <br>
 
         <div class="row">
-            <div class="col s12 m6">
+            <div class="col s12 m6"><br><br>
                 <div class="dcard white darken-1 z-depth-2 float">
-                    <div class="dcard-content white-text">
+                    <div class="dcard-content white-text" align="left">
                         <font color="#323232">{% capture dcard1 %}{% include docs_devcard1.md %}{% endcapture %}
-                            {{ dcard1 | markdownify }}</font>
+                            {{ dcard1 | markdownify }}</font><br>
+                        <pre class="prettyprint">{% capture code1 %}{% include docs_code1.md %}{% endcapture %}{{ code1 | markdownify }}</pre>
                     </div>
                     <div class="dcard-action">
                         <a href="https://www.github.com/cSploit/" onclick="Materialize.toast('Redirecting to Github...', 4500)">Github Wiki</a>
@@ -149,7 +148,8 @@ layout: blank
             <div class="dcard white darken-1 z-depth-2 float">
                 <div class="dcard-content white-text">
                     <font color="#323232">{% capture dcard2 %}{% include docs_devcard2.md %}{% endcapture %}
-                        {{ dcard2 | markdownify }}</font>
+                        {{ dcard2 | markdownify }}</font><br>
+                    <pre class="prettyprint">{% capture code2 %}{% include docs_code2.md %}{% endcapture %}{{ code2 | markdownify }}</pre>
                 </div>
                 <div class="dcard-action">
                     <a href="https://www.github.com/cSploit/" onclick="Materialize.toast('Redirecting to Github...', 4500)">Github Wiki</a>
@@ -165,7 +165,8 @@ layout: blank
                 <div class="dcard white darken-1 z-depth-2 float">
                     <div class="dcard-content white-text">
                         <font color="#323232">{% capture dcard3 %}{% include docs_devcard3.md %}{% endcapture %}
-                            {{ dcard3 | markdownify }}</font>
+                            {{ dcard3 | markdownify }}</font><br>
+                        <pre class="prettyprint">{% capture code3 %}{% include docs_code3.md %}{% endcapture %}{{ code3 | markdownify }}</pre>
                     </div>
                     <div class="dcard-action">
                         <a href="https://www.github.com/cSploit/" onclick="Materialize.toast('Redirecting to Github...', 4500)">Github Wiki</a>
@@ -179,7 +180,8 @@ layout: blank
             <div class="dcard white darken-1 z-depth-2 float">
                 <div class="dcard-content white-text">
                     <font color="#323232">{% capture dcard4 %}{% include docs_devcard4.md %}{% endcapture %}
-                        {{ dcard4 | markdownify }}</font>
+                        {{ dcard4 | markdownify }}</font><br>
+                    <pre class="prettyprint">{% capture code4 %}{% include docs_code4.md %}{% endcapture %}{{ code4 | markdownify }}</pre>
                 </div>
                 <div class="dcard-action">
                     <a href="https://www.github.com/cSploit/" onclick="Materialize.toast('Redirecting to Github...', 4500)">Github Wiki</a>
