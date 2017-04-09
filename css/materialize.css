@@ -4088,7 +4088,9 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
-    line-height: 1.1;
+    line-height: 1.2;
+    font-family: 'Roboto Condensed Bold', serif !important;
+    letter-spacing: 1px !important;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -4145,6 +4147,7 @@ small {
 
 .light, footer.page-footer .footer-copyright {
     font-weight: 300;
+    font-family: 'Roboto Condensed Regular', serif;
 }
 
 .thin {
