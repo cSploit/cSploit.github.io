@@ -1,4 +1,4 @@
-# cSploit.github.io
+# csploit.org
 
 ### How to build
 ```bash
@@ -26,18 +26,17 @@ Configuration file: /Users/andrea/Desktop/cSploit.github.io/_config.yml
 ### All TODOs:
 - [ ] Write all .md files using a perfect syntax and using the right HTML format (h1,h2,h6)
 - [X] Fix mobile paddingand & content align
-- [ ] Create github control center with JSON APIs interpreter in JS
 - [X] Better resource loading with ksys @AndreaCioccarelli
 - [X] Remove unuseful resources
 - [X] Create new gradients for pages and extra
 - [X] Make UI more fluid and responsive
-- [ ] Use a code-window plugin to host code on github using getter via row
+- [X] Use a code-window plugin to host code on github using getter via row
 - [X] Dump all loadings with a web-inspector and tweak resources loading time
 - [X] Compleate toasts and iframes
 - [X] Finish pages
+- [X] Use Roboto Condensed
 
 
 ### Warning: Known issues
 + Page gets 404 errors for each redirection. it's normal, because cSploit will try to redirect you at rootURL + directory and not at the clean url. So, it will be fixed automatically when merged in master, because it'll set up automatically everything
-+ Font parsing (Apply) issue, also it will be fixed soon
 + Broken links on donation page
