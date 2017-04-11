@@ -1,3 +1,4 @@
+
 # csploit.org
 
 ### How to build
@@ -40,3 +41,4 @@ Configuration file: /Users/andrea/Desktop/cSploit.github.io/_config.yml
 ### Warning: Known issues
 + Page gets 404 errors for each redirection. it's normal, because cSploit will try to redirect you at rootURL + directory and not at the clean url. So, it will be fixed automatically when merged in master, because it'll set up automatically everything
 + Broken links on donation page
++ Internet explorer >11 not work, polygon() returns error
