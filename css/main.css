@@ -414,6 +414,13 @@ n {
   text-shadow: 0 1px;
 }
 
+.black-font {
+  color: #000000:
+}
+
+.white-font {
+  color: #FFFFFF;
+}
 
 .floating-text-white {
   text-shadow: 0 1px;
