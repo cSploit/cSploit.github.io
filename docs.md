@@ -14,7 +14,7 @@ My apologies for that, I'm doing my best to achieve a stable app :v:.
 
 #### Possible error
 
-A short error message isn't often self-explanatory. Sometimes it too difficult to explain an issue with a short message and here you can find a few common examples that explain some errors:
+A short error message isn't often self-explanatory. Sometimes it is too difficult to explain an issue with a short message and here you can find a few common examples that explain some errors:
 
 <ul class="collection">
   <li class="collection-item">cannot start process: this message is printed when the core of cSploit cannot start the required process</li>
